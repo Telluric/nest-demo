@@ -17,7 +17,7 @@ export default class NextHTMLDocument extends Document<MuiDocument> {
     return (
       <Html>
         <Head>{this.props.emotionStyleTags}</Head>
-        <body>
+        <body style={{ display: 'block' }}>
           <Main />
           <NextScript />
         </body>
